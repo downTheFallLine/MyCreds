@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B423B95249BD02300B7749F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B423B94249BD02300B7749F /* HomeViewController.swift */; };
+		0B423B97249BD6BB00B7749F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B423B96249BD6BB00B7749F /* SettingsViewController.swift */; };
+		0B423B99249D1EE700B7749F /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B423B98249D1EE700B7749F /* AssessmentViewController.swift */; };
+		0B423B9C249D749200B7749F /* QRCodeCredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B423B9B249D749200B7749F /* QRCodeCredViewController.swift */; };
+		0B423B9E249D74A600B7749F /* ShareCredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B423B9D249D74A600B7749F /* ShareCredViewController.swift */; };
 		0B4383592499CF9F0046381C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4383582499CF9F0046381C /* AppDelegate.swift */; };
 		0B43835B2499CF9F0046381C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B43835A2499CF9F0046381C /* SceneDelegate.swift */; };
 		0B43835D2499CF9F0046381C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B43835C2499CF9F0046381C /* ViewController.swift */; };
@@ -15,6 +20,14 @@
 		0B4383652499CFA30046381C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4383632499CFA30046381C /* LaunchScreen.storyboard */; };
 		0B4383702499CFA40046381C /* MyCredsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B43836F2499CFA40046381C /* MyCredsTests.swift */; };
 		0B43837B2499CFA40046381C /* MyCredsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B43837A2499CFA40046381C /* MyCredsUITests.swift */; };
+		0B4E376E249A864C000316DF /* MyCredsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E376D249A864C000316DF /* MyCredsViewController.swift */; };
+		0B4E3770249A9E0D000316DF /* CredentialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E376F249A9E0D000316DF /* CredentialTableViewCell.swift */; };
+		0B4E3772249AC823000316DF /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E3771249AC823000316DF /* HistoryViewController.swift */; };
+		0B4E3774249AC845000316DF /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E3773249AC845000316DF /* HistoryTableViewCell.swift */; };
+		0B4E3776249BCA95000316DF /* DIDEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E3775249BCA95000316DF /* DIDEngine.swift */; };
+		5E303CFF689B696C60DDC99A /* Pods_MyCreds_MyCredsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0E8705F4C907DD9A43757A /* Pods_MyCreds_MyCredsUITests.framework */; };
+		80921E7BE855BA8FB39C2258 /* Pods_MyCredsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F9CB5CE58E13D51518183E /* Pods_MyCredsTests.framework */; };
+		C8ACECCDB487CA03708A1824 /* Pods_MyCreds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9142DA9462ED1AC5981E47 /* Pods_MyCreds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B423B94249BD02300B7749F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0B423B96249BD6BB00B7749F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0B423B98249D1EE700B7749F /* AssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentViewController.swift; sourceTree = "<group>"; };
+		0B423B9A249D314B00B7749F /* MyCreds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyCreds.entitlements; sourceTree = "<group>"; };
+		0B423B9B249D749200B7749F /* QRCodeCredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeCredViewController.swift; sourceTree = "<group>"; };
+		0B423B9D249D74A600B7749F /* ShareCredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCredViewController.swift; sourceTree = "<group>"; };
 		0B4383552499CF9F0046381C /* MyCreds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCreds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4383582499CF9F0046381C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B43835A2499CF9F0046381C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,20 @@
 		0B4383762499CFA40046381C /* MyCredsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCredsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B43837A2499CFA40046381C /* MyCredsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCredsUITests.swift; sourceTree = "<group>"; };
 		0B43837C2499CFA40046381C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B4E376D249A864C000316DF /* MyCredsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCredsViewController.swift; sourceTree = "<group>"; };
+		0B4E376F249A9E0D000316DF /* CredentialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialTableViewCell.swift; sourceTree = "<group>"; };
+		0B4E3771249AC823000316DF /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		0B4E3773249AC845000316DF /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		0B4E3775249BCA95000316DF /* DIDEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIDEngine.swift; sourceTree = "<group>"; };
+		1F268AD3F8A02E11EB8791F9 /* Pods-MyCreds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCreds.release.xcconfig"; path = "Target Support Files/Pods-MyCreds/Pods-MyCreds.release.xcconfig"; sourceTree = "<group>"; };
+		371F9643DAC66443A4CDA97D /* Pods-MyCreds-MyCredsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCreds-MyCredsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyCreds-MyCredsUITests/Pods-MyCreds-MyCredsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0E8705F4C907DD9A43757A /* Pods_MyCreds_MyCredsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCreds_MyCredsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9D4749A14067F658173FBD /* Pods-MyCreds-MyCredsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCreds-MyCredsUITests.release.xcconfig"; path = "Target Support Files/Pods-MyCreds-MyCredsUITests/Pods-MyCreds-MyCredsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73C2DB827F8872CE8770F0B7 /* Pods-MyCreds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCreds.debug.xcconfig"; path = "Target Support Files/Pods-MyCreds/Pods-MyCreds.debug.xcconfig"; sourceTree = "<group>"; };
+		A4848E2A207E0DE13D1E61D9 /* Pods-MyCredsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCredsTests.release.xcconfig"; path = "Target Support Files/Pods-MyCredsTests/Pods-MyCredsTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD9142DA9462ED1AC5981E47 /* Pods_MyCreds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCreds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE01E8DFEBD3277CBE3FCFED /* Pods-MyCredsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCredsTests.debug.xcconfig"; path = "Target Support Files/Pods-MyCredsTests/Pods-MyCredsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F9CB5CE58E13D51518183E /* Pods_MyCredsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCredsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8ACECCDB487CA03708A1824 /* Pods_MyCreds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80921E7BE855BA8FB39C2258 /* Pods_MyCredsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E303CFF689B696C60DDC99A /* Pods_MyCreds_MyCredsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +119,8 @@
 				0B43836E2499CFA40046381C /* MyCredsTests */,
 				0B4383792499CFA40046381C /* MyCredsUITests */,
 				0B4383562499CF9F0046381C /* Products */,
+				66C691F360ABF0A7FCC8C1B8 /* Pods */,
+				9A5FE887A12A1053317E415B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +137,7 @@
 		0B4383572499CF9F0046381C /* MyCreds */ = {
 			isa = PBXGroup;
 			children = (
+				0B423B9A249D314B00B7749F /* MyCreds.entitlements */,
 				0B4383582499CF9F0046381C /* AppDelegate.swift */,
 				0B43835A2499CF9F0046381C /* SceneDelegate.swift */,
 				0B43835C2499CF9F0046381C /* ViewController.swift */,
@@ -106,6 +145,16 @@
 				0B4383612499CFA30046381C /* Assets.xcassets */,
 				0B4383632499CFA30046381C /* LaunchScreen.storyboard */,
 				0B4383662499CFA30046381C /* Info.plist */,
+				0B4E376D249A864C000316DF /* MyCredsViewController.swift */,
+				0B4E376F249A9E0D000316DF /* CredentialTableViewCell.swift */,
+				0B4E3771249AC823000316DF /* HistoryViewController.swift */,
+				0B4E3773249AC845000316DF /* HistoryTableViewCell.swift */,
+				0B4E3775249BCA95000316DF /* DIDEngine.swift */,
+				0B423B94249BD02300B7749F /* HomeViewController.swift */,
+				0B423B96249BD6BB00B7749F /* SettingsViewController.swift */,
+				0B423B98249D1EE700B7749F /* AssessmentViewController.swift */,
+				0B423B9B249D749200B7749F /* QRCodeCredViewController.swift */,
+				0B423B9D249D74A600B7749F /* ShareCredViewController.swift */,
 			);
 			path = MyCreds;
 			sourceTree = "<group>";
@@ -128,6 +177,29 @@
 			path = MyCredsUITests;
 			sourceTree = "<group>";
 		};
+		66C691F360ABF0A7FCC8C1B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73C2DB827F8872CE8770F0B7 /* Pods-MyCreds.debug.xcconfig */,
+				1F268AD3F8A02E11EB8791F9 /* Pods-MyCreds.release.xcconfig */,
+				371F9643DAC66443A4CDA97D /* Pods-MyCreds-MyCredsUITests.debug.xcconfig */,
+				5A9D4749A14067F658173FBD /* Pods-MyCreds-MyCredsUITests.release.xcconfig */,
+				CE01E8DFEBD3277CBE3FCFED /* Pods-MyCredsTests.debug.xcconfig */,
+				A4848E2A207E0DE13D1E61D9 /* Pods-MyCredsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A5FE887A12A1053317E415B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD9142DA9462ED1AC5981E47 /* Pods_MyCreds.framework */,
+				4F0E8705F4C907DD9A43757A /* Pods_MyCreds_MyCredsUITests.framework */,
+				F2F9CB5CE58E13D51518183E /* Pods_MyCredsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B43837F2499CFA40046381C /* Build configuration list for PBXNativeTarget "MyCreds" */;
 			buildPhases = (
+				8B3AFE43ED189DBC62B39DFF /* [CP] Check Pods Manifest.lock */,
 				0B4383512499CF9F0046381C /* Sources */,
 				0B4383522499CF9F0046381C /* Frameworks */,
 				0B4383532499CF9F0046381C /* Resources */,
+				3E955427470C348D04B75BD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B4383822499CFA40046381C /* Build configuration list for PBXNativeTarget "MyCredsTests" */;
 			buildPhases = (
+				B60597940BB7A815B02A147A /* [CP] Check Pods Manifest.lock */,
 				0B4383672499CFA30046381C /* Sources */,
 				0B4383682499CFA30046381C /* Frameworks */,
 				0B4383692499CFA30046381C /* Resources */,
@@ -170,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B4383852499CFA40046381C /* Build configuration list for PBXNativeTarget "MyCredsUITests" */;
 			buildPhases = (
+				B6D23553093142CCCB37A6F7 /* [CP] Check Pods Manifest.lock */,
 				0B4383722499CFA40046381C /* Sources */,
 				0B4383732499CFA40046381C /* Frameworks */,
 				0B4383742499CFA40046381C /* Resources */,
+				328C8814BFDCF1C7BA7EF252 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +331,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		328C8814BFDCF1C7BA7EF252 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCreds-MyCredsUITests/Pods-MyCreds-MyCredsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCreds-MyCredsUITests/Pods-MyCreds-MyCredsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCreds-MyCredsUITests/Pods-MyCreds-MyCredsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E955427470C348D04B75BD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCreds/Pods-MyCreds-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCreds/Pods-MyCreds-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCreds/Pods-MyCreds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3AFE43ED189DBC62B39DFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCreds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60597940BB7A815B02A147A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCredsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D23553093142CCCB37A6F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCreds-MyCredsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B4383512499CF9F0046381C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B423B9C249D749200B7749F /* QRCodeCredViewController.swift in Sources */,
+				0B4E376E249A864C000316DF /* MyCredsViewController.swift in Sources */,
+				0B4E3776249BCA95000316DF /* DIDEngine.swift in Sources */,
 				0B43835D2499CF9F0046381C /* ViewController.swift in Sources */,
+				0B423B9E249D74A600B7749F /* ShareCredViewController.swift in Sources */,
+				0B423B97249BD6BB00B7749F /* SettingsViewController.swift in Sources */,
+				0B4E3774249AC845000316DF /* HistoryTableViewCell.swift in Sources */,
+				0B423B99249D1EE700B7749F /* AssessmentViewController.swift in Sources */,
 				0B4383592499CF9F0046381C /* AppDelegate.swift in Sources */,
+				0B423B95249BD02300B7749F /* HomeViewController.swift in Sources */,
+				0B4E3772249AC823000316DF /* HistoryViewController.swift in Sources */,
 				0B43835B2499CF9F0046381C /* SceneDelegate.swift in Sources */,
+				0B4E3770249A9E0D000316DF /* CredentialTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,16 +622,19 @@
 		};
 		0B4383802499CFA40046381C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C2DB827F8872CE8770F0B7 /* Pods-MyCreds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyCreds/MyCreds.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 636L2P48DR;
 				INFOPLIST_FILE = MyCreds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.allegro.MyCreds;
+				PRODUCT_BUNDLE_IDENTIFIER = org.allegro.mycreds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,16 +643,19 @@
 		};
 		0B4383812499CFA40046381C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F268AD3F8A02E11EB8791F9 /* Pods-MyCreds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyCreds/MyCreds.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 636L2P48DR;
 				INFOPLIST_FILE = MyCreds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.allegro.MyCreds;
+				PRODUCT_BUNDLE_IDENTIFIER = org.allegro.mycreds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +664,7 @@
 		};
 		0B4383832499CFA40046381C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE01E8DFEBD3277CBE3FCFED /* Pods-MyCredsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +687,7 @@
 		};
 		0B4383842499CFA40046381C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4848E2A207E0DE13D1E61D9 /* Pods-MyCredsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +710,7 @@
 		};
 		0B4383862499CFA40046381C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371F9643DAC66443A4CDA97D /* Pods-MyCreds-MyCredsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +731,7 @@
 		};
 		0B4383872499CFA40046381C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9D4749A14067F658173FBD /* Pods-MyCreds-MyCredsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
